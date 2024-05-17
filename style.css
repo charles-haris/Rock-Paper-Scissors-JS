@@ -48,11 +48,11 @@ body{
     margin: 10px 5px;
     cursor: pointer;
   }
-
+  /*this will be used to changed the color of the score when the computer or the user loses */
   .is-red{
-    color: red;
+     color: red;
   }
-
+    /*this will be used to changed the color of the score when the computer or the user wins */
   .is-green{
     color: green;
   }
