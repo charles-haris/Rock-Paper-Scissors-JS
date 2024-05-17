@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial;
+  }
+
+  h1{
+    padding: 10px 0px 10px 10px;
+    background-color: rgb(47, 45, 45);
+    font-weight: 600;
+    font-size: 2.5rem;
+    border-radius: 5px;
+  }
+
+  .play-button{
+    width: 60%;
+    margin: auto;
+    display: flex;  
+    justify-content: space-around;
+  }
+
+  button{
+    font-size: 50px;
+    padding: 40px 50px;
+    border-radius: 50%;
+    border: 10px solid white;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color:rgb(25, 25, 25) ;
+  }
+  .card-result{
+    margin: 10px 0px;
+    padding: 5px 0px 5px 10px;
+    background-color: rgb(47, 45, 45);
+    font-weight: 300;
+    font-size: 1.5rem;
+    border-radius: 5px;
+  }
+
+  #reset{
+    font-size: 50px;
+    padding: 35px 50px;
+    border-radius: 50%;
+    border: 10px solid white;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+
+  .is-red{
+    color: red;
+  }
+
+  .is-green{
+    color: green;
+  }
