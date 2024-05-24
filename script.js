@@ -98,8 +98,6 @@ let resetColor = "";
       cptuser = `you picked <b> ${button} </b>, the computer picked <b>${computerSelection} </b> Result: <b>Tie! </b>`;
       resetColor = "";
 
-     /*  alert(`you picked ${button}, the computer picked ${computerSelection} Tie!
-      party won: ${party.won}, party lost: ${party.lose}, party tie: ${party.tie}  `); */
   }else if(computerSelection===computerSelectionOther){
 
       party.lose++;
